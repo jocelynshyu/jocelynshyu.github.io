@@ -7,11 +7,22 @@
 
 body {
     font-family: "source-han-sans-traditional", sans-serif, "微軟正黑";
+    line-height: 2;
 }
 
 .container {
     max-width: 1024px;
     margin: 0 auto;
+}
+
+.basic-padding {
+    padding: 20px 20px 5px;
+}
+
+@media (min-width: 1200px) {
+    .basic-padding {
+        padding: 50px 20px 10px;
+    }
 }
 
 
