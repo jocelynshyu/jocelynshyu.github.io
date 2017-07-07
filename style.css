@@ -6,6 +6,9 @@
 }
 
 body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
     font-family: "source-han-sans-traditional", sans-serif, "微軟正黑";
     line-height: 2;
 }
@@ -63,4 +66,22 @@ h1 {
     .header img {
         margin: 0;
     }
+}
+
+
+
+.main {
+    flex-grow: 1;
+}
+
+
+
+.footer {
+    margin: 50px 0 0;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 2;
+    text-shadow: 0 0 2px #000;
+    background: #99cdfa;
 }
