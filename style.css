@@ -83,5 +83,5 @@ h1 {
     font-size: 20px;
     line-height: 2;
     text-shadow: 0 0 2px #000;
-    background: #99cdfa;
+    background: linear-gradient(150deg, rgba(0, 97, 255, .5), rgba(0, 243, 255, .5), rgba(255, 0, 222, .5));
 }
