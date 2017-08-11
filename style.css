@@ -31,7 +31,7 @@ body {
 
 
 .header {
-    padding: 30px 20px 0;
+    padding: 30px 50px 0;
     text-shadow: 1px 1px 2px #fff, -1px 1px 2px #fff, 1px -1px 2px #fff, -1px -1px 2px #fff;
     background: linear-gradient(150deg, rgba(0, 97, 255, .5), rgba(0, 243, 255, .5), rgba(255, 0, 222, .5));
 }
@@ -48,11 +48,14 @@ h1 {
 
 .header img {
     display: block;
-    width: 250px;
+    width: 200px;
     margin: 30px auto 0;
 }
 
 @media (min-width: 480px) {
+    .header {
+        padding: 30px 20px 0;
+    }
     .header .container {
         display: flex;
         justify-content: center;
@@ -60,7 +63,7 @@ h1 {
     }
 
     .header .container > div {
-        margin: 0 20px 50px;
+        margin: 0 40px 50px;
     }
 
     .header img {
