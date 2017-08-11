@@ -19,12 +19,12 @@ body {
 }
 
 .basic-padding {
-    padding: 20px 50px 5px;
+    padding: 20px 25px 5px;
 }
 
 @media (min-width: 1200px) {
     .basic-padding {
-        padding: 50px 50px 10px;
+        padding: 50px 40px 10px;
     }
 }
 
