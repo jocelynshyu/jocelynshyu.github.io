@@ -124,6 +124,23 @@ h2 {
 }
 
 
+.li--job {
+    padding: 10px 0;
+}
+
+.li--job > h4 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.li--job > p {
+    padding-left: 6em;
+    text-indent: -5.3em;
+}
+
+
+
+
 
 .footer {
     margin: 50px 0 0;
