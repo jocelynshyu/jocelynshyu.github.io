@@ -19,12 +19,12 @@ body {
 }
 
 .basic-padding {
-    padding: 20px 20px 5px;
+    padding: 20px 50px 5px;
 }
 
 @media (min-width: 1200px) {
     .basic-padding {
-        padding: 50px 20px 10px;
+        padding: 50px 50px 10px;
     }
 }
 
@@ -112,9 +112,9 @@ h2 {
 }
 
 .li--account > img {
-    width: 30px;
-    height: 30px;
-    margin: 0 10px 0 0;
+    width: 25px;
+    height: 25px;
+    margin: 0 5px 0 0;
 }
 
 .li--account > a {
@@ -123,6 +123,12 @@ h2 {
     text-decoration: none;
 }
 
+@media (min-width: 480px) {
+    .li--account {
+        display: inline-block;
+        margin: 5px;
+    }
+}
 
 .li--job {
     padding: 10px 0;
