@@ -56,6 +56,7 @@ h1 {
     .header {
         padding: 30px 20px 0;
     }
+
     .header .container {
         display: flex;
         justify-content: center;
@@ -75,6 +76,51 @@ h1 {
 
 .main {
     flex-grow: 1;
+}
+
+
+
+.block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 0 20px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.title-container {
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 0 5px;
+    border-bottom: 2px solid;
+    line-height: 1.6;
+}
+
+.li--account {
+    margin: 15px 0;
+}
+
+.li--account > img,
+.li--account > a {
+    vertical-align: middle;
+}
+
+.li--account > img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 0 0;
+}
+
+.li--account > a {
+    border-bottom: 1px solid;
+    color: #000;
+    text-decoration: none;
 }
 
 
