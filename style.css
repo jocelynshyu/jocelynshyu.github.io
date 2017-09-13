@@ -139,9 +139,12 @@ h2 {
     font-size: 18px;
 }
 
-.li--job > p {
-    padding-left: 5.4em;
-    text-indent: -5.4em;
+.job-flex {
+    display: flex;
+}
+
+.job-flex > span:first-child {
+    flex-shrink: 0;
 }
 
 
