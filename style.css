@@ -131,7 +131,29 @@ h2 {
 }
 
 .li--job {
-    padding: 10px 0;
+    position: relative;
+    padding: 10px 0 10px 35px;
+}
+
+.li--job::before {
+    content: "";
+    position: absolute;
+    top: 1.6em;
+    left:  0;
+    width: .75em;
+    height: .75em;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.li--job:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 2em;
+    left:  .3em;
+    bottom: -30px;
+    width: .2em;
+    background-color: #000;
 }
 
 .li--job > h4 {
